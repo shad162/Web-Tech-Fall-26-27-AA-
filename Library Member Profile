@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <title>Library Member Profile</title>
+ <link rel="icon" href="https://static.thenounproject.com/png/favicon-icon-5265761-512.png">
+</head>
+<body>
+    <h1>Library Member Profile</h1>
+    <p><b> is a simple profile page for a library member.</b></p>
+    <a href="https://openlibrary.org/" target="_blank">Online Library </a>
+    <br>
+    <table border="1">
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Image </th>
+        </tr>
+        <tr>    
+            <td>12645   </td>
+            <td>John Doe</td>
+            <td>john.doe@example.com</td>
+            <td><img src="https://via.placeholder.com/100" alt="Profile Image"></td>
+        </tr>
+</body>
+</html>
