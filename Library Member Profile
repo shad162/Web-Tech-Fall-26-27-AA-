@@ -18,9 +18,83 @@
         </tr>
         <tr>    
             <td>12645   </td>
-            <td>John Doe</td>
-            <td>john.doe@example.com</td>
-            <td><img src="https://via.placeholder.com/100" alt="Profile Image"></td>
+            <td>John Cena</td>
+            <td>john.cena@example.com</td>
+            <td><img src="https://via.placeholder.com/100" 
+            width="100px"
+            height="60px" 
+            alt="Profile Image"></td>
         </tr>
+        <br>
+    <h2>Registration Form</h2>
+    <form action="" method="get">
+        <table>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Age">Age:</label>
+                </td>
+                <td>
+                    <input type="number" id="Age" name="Age" min="0">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="DOB">Date of Birth:</label></td>
+                <td><input type="date" id="DOB" name="DOB"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td><textarea id="address" name="address" rows="3" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">female</label>
+            </tr>
+            <tr>
+             <td>
+	            <select id="department" name="department">
+	            <option value="cse">CSE</option>
+	            <option value="eee">EEE</option>
+	            <option value="cncs">CNCS</option>
+	            </select>
+	         </td>
+            </tr>
+            <tr>
+          <td><label for="file">File</label></td>
+          <td>
+            <input type="file" id="file" name="file" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Terms</td>
+          <td>
+            <input type="checkbox" id="terms" name="terms" required />
+            <label for="terms">agree to the terms?</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td>
+            <button type="submit">Sign Up</button>
+          </td>
+        </tr>
+        </table>
+    </form>
 </body>
 </html>
